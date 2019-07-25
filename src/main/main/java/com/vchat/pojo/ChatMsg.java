@@ -14,6 +14,7 @@ public class ChatMsg {
     @Column(name = "accept_user_id")
     private String acceptUserId;
 
+    @Column(name = "msg")
     private String msg;
 
     /**
